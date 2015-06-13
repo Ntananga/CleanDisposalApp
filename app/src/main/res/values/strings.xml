@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Clean Disposal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_account">AccountActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_collection_map">CollectionMap</string>
+    <string name="title_activity_private_services">PrivateServices</string>
+    <!--String related to the Notification preference-->
+    <string name="pre_last_notification">last_notification</string>
+
+    <!--Notification format-->
+    <string name="notification_format">
+        Collection:
+    </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_public_services">PublicServices</string>
+    <string name="title_activity_recycle">RecycleActivity</string>
+    <array name="servicelist">
+        <item> Location: Kakoba Mbarara</item>
+        <item>Type: Collect bio and non degredable waste</item>
+        <item> Places: Home Steads, Companies, Institutes and Hotels</item>
+    </array>
+</resources>

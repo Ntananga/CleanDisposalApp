@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Notifications">
+        <CheckBoxPreference
+            android:summary="Turn on notifications from the company you use"
+            android:title="Enable Notifications"
+            android:key="checkBox1"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:summary="Turn off notifications from the company you use"
+            android:title="Disable Notifications"
+            android:key="checkBox2"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Ringtone">
+        <RingtonePreference
+            android:title="Change Ringtone"
+            android:summary="change the default ringtone"/>
+
+        <EditTextPreference
+            android:title="New Location"
+            android:summary="Where do you live now?"
+            android:defaultValue="[enter your new location here]"
+            android:key="editPref"/>
+        <EditTextPreference
+            android:title="New Phone Number"
+            android:summary="Whats your new number?"
+            android:defaultValue="[enter your new number here]"
+            android:key="editPref2"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
